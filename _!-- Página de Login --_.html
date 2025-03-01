@@ -1,0 +1,10 @@
+<!-- Página de Login -->
+<div id="login">
+  <h2 class="text-2xl font-bold mb-4">Iniciar Sesión</h2>
+  <form onsubmit="event.preventDefault(); loginUser(email.value, password.value)">
+    <input type="email" id="email" placeholder="Correo electrónico" class="w-full p-2 mb-2 border rounded" required>
+    <input type="password" id="password" placeholder="Contraseña" class="w-full p-2 mb-2 border rounded" required>
+    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Iniciar Sesión</button>
+  </form>
+  <a href="#register" class="block mt-4 text-blue-500">¿No tienes una cuenta? Regístrate</a>
+</div>
