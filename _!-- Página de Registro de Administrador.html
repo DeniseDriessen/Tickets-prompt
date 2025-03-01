@@ -1,0 +1,10 @@
+<!-- Página de Registro de Administrador -->
+<div id="registerAdmin" class="hidden">
+  <h2 class="text-2xl font-bold mb-4">Registro de Administrador</h2>
+  <form onsubmit="event.preventDefault(); registerUser(email.value, password.value, true)">
+    <input type="email" id="email" placeholder="Correo electrónico" class="w-full p-2 mb-2 border rounded" required>
+    <input type="password" id="password" placeholder="Contraseña" class="w-full p-2 mb-2 border rounded" required>
+    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Registrar Administrador</button>
+  </form>
+  <a href="#login" class="block mt-4 text-blue-500">¿Ya tienes una cuenta? Inicia sesión</a>
+</div>
